@@ -190,9 +190,13 @@ footer {
 
 /* Additional Link Icon Styling */
 a[href^="http"]:not([href*="st-huxleys"])::after {
-  content: url("link.svg");
+  content: "";
+  background-image: url("external-link-52.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
   margin-left: 5px;
-  width: 16px;
-  height: 16px;
   vertical-align: middle;
 }
